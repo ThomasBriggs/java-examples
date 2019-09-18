@@ -60,7 +60,7 @@ public class Sort {
         int j;
         for (int i = 1; i<n; i++){
             j = i;
-            int temp = input[i];
+            int temp = input[j];
             while (j > 0 && input[j-1] > temp) {
                 input[j] = input[j-1];
                 j--;
